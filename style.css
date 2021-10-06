@@ -1,0 +1,180 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* PÁGINA HTML BODY */
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 15px;
+}
+
+/* ENUNCIADOS DE LOS EJERCICIOS */
+
+.enunciados h1 span {
+    border-radius: 15%;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 2px;
+    font-size: 23px;
+}
+
+.enunciados h1 {
+    font-size: 23px;
+}
+
+/* CAJAS DEL EJERCICIO 1 */
+
+.ejercicio1caja1 h1 {
+    width: 30%;
+    font-size: 25px;
+    height: 150px;
+    background-color: rgb(213, 232, 248);
+
+}
+
+.ejercicio1caja2 h1 {
+    width: 30%;
+    height: 150px;
+    font-size: 25px;
+    background-color: greenyellow;
+}
+
+/* CAJAS DEL EJERCICIO 2 */
+
+.ejercicio2 {
+    display: flex;
+    text-align: center;
+}
+
+.ejercicio2caja1 h1 {
+    width: 300px;
+    font-size: 25px;
+    height: 150px;
+    background-color: rgb(213, 232, 248);
+}
+
+.ejercicio2caja2 h1 {
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+    background-color: greenyellow;
+}
+
+/* CAJAS DEL EJERCICIO 3 */
+
+.ejercicio3caja1 h1 {
+    width: 300px;
+    font-size: 25px;
+    height: 150px;
+    background-color: rgb(213, 232, 248);
+    float: left;
+}
+
+.ejercicio3caja2 h1 {
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+    background-color: greenyellow;
+    float: right;
+}
+
+/* CAJAS DEL EJERCICIO 4 */
+
+.ejercicio4caja1 h1 {
+    width: 300px;
+    font-size: 25px;
+    height: 150px;
+    background-color: rgb(213, 232, 248); 
+    float: right;
+}
+
+.ejercicio4caja2 h1 {
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+    background-color: greenyellow;
+    float: right;
+}
+
+.ejercicio4caja3 h1 {
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+    background-color: rgb(252, 0, 210);
+    float: left;
+}
+
+/* CAJAS DEL EJERCICIO 5 */
+
+.ejercicio5caja1 h1 {
+    width: 300px;
+    font-size: 25px;
+    height: 150px;
+    background-color: rgb(213, 232, 248); 
+    float: right;
+}
+
+.ejercicio5caja2 h1 {
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+    background-color: greenyellow;
+    float: right;
+}
+
+.ejercicio5caja0 {
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+    background-color: white;
+}
+
+.ejercicio5caja3 h1 {
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+    background-color: rgb(252, 0, 210);
+}
+
+/* CAJAS DEL EJERCICIO 6 */
+
+.ejercicio6caja1 h1 {
+    width: 300px;
+    font-size: 25px;
+    height: 150px;
+    background-color: rgb(175, 175, 175); 
+    position: absolute;
+}
+
+.ejercicio6caja2 h2 {
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+    background-color: rgb(238, 213, 102);
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+/* CAJAS DEL EJERCICIO 7 */
+
+.ejercicio7caja1 h1 {
+    width: 300px;
+    font-size: 25px;
+    height: 150px;
+    background-color: rgb(175, 175, 175); 
+    position: absolute; z-index: 100;
+}
+
+.ejercicio7caja2 h2 {
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+    background-color: rgb(238, 213, 102);
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 40px;
+}
